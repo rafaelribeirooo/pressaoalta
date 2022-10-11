@@ -454,6 +454,21 @@
       <div class="text-white"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
     </footer>
 
+<style>
+  .comments{
+    display: none;
+  }
+</style>
+
+<script>
+  setTimeout(function(){
+    btn_ocultar = document.querySelector(".comments");
+    if (null != btn_ocultar) {
+      btn_ocultar.style.display="block";
+    }
+  },"5000");
+</script>
+
     <script type="text/javascript">
       setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 5000); // temporização da Call to Action (em milissegundos)
     </script>
