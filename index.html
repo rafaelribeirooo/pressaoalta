@@ -464,10 +464,13 @@
     if (null != btn_ocultar) {
       btn_ocultar.style.display="block";
     }
-  },"50000");
+  },"10000");
 </script>
 </div>
-            
+      
+      <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 10000); // temporização da Call to Action (em milissegundos)
+    </script>      
 
     <footer class="bg-dark py-3 text-center">
       <div class="text-white"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
