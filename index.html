@@ -18,7 +18,7 @@
     <style type="text/css">
       header{
         color: white;
-        background-image: url('assets/img/bg.png');
+        background-image: url('assets/img/bg.jpg');
         background-position: center;
         background-size: cover;
         background-blend-mode: darken;
@@ -45,13 +45,15 @@
       src="https://www.facebook.com/tr?id=671840113939919&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    
+
   </head>
-  <body>
-    <header class="py-4">
-      <div class="container">
-        <div class="row justify-content-center">
+  <body class="site">
+    <div class="site-content">
+      <header class="py-4">
+        <div class="container">
+         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
+            
             <!-- Imagem Ultrasecreto -->
             <img class="img-fluid" src="./assets/img/ultrasecreto.svg">
 
@@ -462,16 +464,14 @@
     if (null != btn_ocultar) {
       btn_ocultar.style.display="block";
     }
-  },"5000");
+  },"50000");
 </script>
+</div>
+            
 
     <footer class="bg-dark py-3 text-center">
       <div class="text-white"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
     </footer>
-
-    <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 5000); // temporização da Call to Action (em milissegundos)
-    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
