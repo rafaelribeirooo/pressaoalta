@@ -280,23 +280,5 @@ tr {
       font-family: Cabin; 
       font-weight: bold; 
       font-style: italic;
-      text-shadow: #000000 0px 1px 0px;
-    }
-
-    @keyframes rafa {
-      0%{
-        transform: scale(1);
-      }
-
-      100%{
-        transform: scale(1.05);
-      }
-    }
-
-    .span-btn:hover{
-      animation-name: rafa;
-      animation-duration: 0.5s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
+      text-shadow: #00000 0px 1px 0px;
     }

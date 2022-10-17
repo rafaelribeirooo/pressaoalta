@@ -21,6 +21,16 @@
   font-family: helvetica, arial, sans-serif;
 }
 
+    .site {
+      display: flex;
+      min-height: 100vh; /* minimo de altura 20/100 */
+      flex-direction: column;
+    }
+    .site-content {
+      flex: 1;
+    }
+
+
 body{
   font-size: 16px;
 }
@@ -270,23 +280,5 @@ tr {
       font-family: Cabin; 
       font-weight: bold; 
       font-style: italic;
-      text-shadow: #000000 0px 1px 0px;
-    }
-
-    @keyframes rafa {
-      0%{
-        transform: scale(1);
-      }
-
-      100%{
-        transform: scale(1.05);
-      }
-    }
-
-    .span-btn:hover{
-      animation-name: rafa;
-      animation-duration: 0.5s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
+      text-shadow: #00000 0px 1px 0px;
     }
